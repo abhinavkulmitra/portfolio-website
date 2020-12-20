@@ -1,0 +1,61 @@
+body {
+    padding: 2rem;
+    padding-top: -2rem;
+    margin: 2rem;
+    margin-top: -1rem;
+    background-color: #08d9d6;
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
+    /* border: 0.1rem solid black; */
+  }
+  
+  .header {
+    text-align: left;
+    margin-left: 2rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .img_css {
+    border: black 0.1rem solid;
+    height: 0.1rem;
+    width: 0.05rem;
+  }
+  
+  .nav {
+    margin: 0.1rem;
+    border: 0.1rem solid #ff2e63;
+    padding: 1rem;
+    width: 90%;
+    text-align: right;
+  }
+  
+  .nav a {
+    color: rgb(255, 255, 108);
+    font-size: 1.4rem;
+    padding: 0.8rem;
+    letter-spacing: 0.2rem;
+  }
+  
+  .Projects,
+  .Blogs {
+    margin: 1rem;
+    padding: 0.2rem 0.5rem;
+    border: 0.1rem rgb(255, 127, 127) solid;
+    cursor: pointer;
+    box-shadow: 0.15rem 0.15rem 0.15rem rgb(255, 255, 108);
+    width: 30%;
+  }
+  
+  .head {
+    color: rgb(255, 255, 108);
+  }
+  
+  .Projects:hover,
+  .Blogs:hover {
+    background: rgb(117, 189, 189);
+    transition-delay: 50ms;
+  }
+   
