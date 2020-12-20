@@ -9,6 +9,12 @@ body {
     text-align: center;
     /* border: 0.1rem solid black; */
   }
+
+  .about{
+    float: left;
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
   
   .header {
     text-align: left;
@@ -19,9 +25,12 @@ body {
   }
   
   .img_css {
-    border: black 0.1rem solid;
-    height: 0.1rem;
-    width: 0.05rem;
+    border-radius: 100%;
+    border:  rgb(255, 255, 108) 0.1rem solid;
+    height: 3rem;
+    width: 3rem;
+    position: relative;
+    text-align: center;
   }
   
   .nav {
@@ -39,9 +48,16 @@ body {
     letter-spacing: 0.2rem;
   }
   
+  .img_illustration{
+    margin: 0.2rem;;
+    height: 30%;
+    width: 30%;
+  }
   .Projects,
   .Blogs {
-    margin: 1rem;
+    
+    margin: auto;
+    margin-bottom: 1rem ;
     padding: 0.2rem 0.5rem;
     border: 0.1rem rgb(255, 127, 127) solid;
     cursor: pointer;
@@ -53,9 +69,18 @@ body {
     color: rgb(255, 255, 108);
   }
   
+  .tech{
+    margin-bottom: 5rem;
+  }
+  
   .Projects:hover,
   .Blogs:hover {
     background: rgb(117, 189, 189);
     transition-delay: 50ms;
+  }
+
+  .links{
+      margin: auto;
+      letter-spacing: 0.01rem;
   }
    
