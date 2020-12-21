@@ -10,6 +10,11 @@ body {
     /* border: 0.1rem solid black; */
   }
 
+  a{
+      text-decoration: none;
+      color: white;
+  }
+
   .about{
     float: left;
     font-size: 1.3rem;
@@ -82,5 +87,13 @@ body {
   .links{
       margin: auto;
       letter-spacing: 0.01rem;
+  }
+
+  .links:hover{
+    text-decoration: underline;
+  }
+
+  .listOfProjects{
+      
   }
    
