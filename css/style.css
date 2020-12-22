@@ -7,6 +7,7 @@ body {
     color: white;
     font-family: "Roboto Condensed", sans-serif;
     text-align: center;
+    font-size: larger;
     /* border: 0.1rem solid black; */
   }
 
@@ -39,6 +40,7 @@ body {
   }
   
   .nav {
+    background-color: #33d3d0;
     margin: 0.1rem;
     border: 0.1rem solid #ff2e63;
     padding: 1rem;
@@ -59,15 +61,15 @@ body {
     width: 30%;
   }
   .Projects,
-  .Blogs {
-    
+  .Blogs, .listOfProjects li, .listOfBlogs li {
+    background-color: #33d3d0;
     margin: auto;
     margin-bottom: 1rem ;
     padding: 0.2rem 0.5rem;
     border: 0.1rem rgb(255, 127, 127) solid;
     cursor: pointer;
     box-shadow: 0.15rem 0.15rem 0.15rem rgb(255, 255, 108);
-    width: 30%;
+    width: 60%;
   }
   
   .head {
@@ -84,16 +86,58 @@ body {
     transition-delay: 50ms;
   }
 
-  .links{
+  .links a{
       margin: auto;
       letter-spacing: 0.01rem;
   }
 
-  .links:hover{
+  .links a:hover{
     text-decoration: underline;
   }
 
-  .listOfProjects{
-      
+  /* .listOfProjects{
+      height: 50%;
+      width: 50%;
+      padding:1rem;
+      margin: auto;
+  } */
+
+  .listOfProjects li, .listOfBlogs li{
+      cursor: default;
+
+  }
+
+  .listOfProjects button, .listOfBlogs button{
+        background-color: rgb(255, 127, 127);
+        font-size: 100%;
+        margin: auto;
+        padding: 0.4rem;
+        color: white;
+        border-radius: 5%;
+    }
+
+  .listOfProjects h4, .listOfBlogs h4{
+      font-size: 1.3rem;
+      color: rgb(255, 255, 108);
   }
    
+  footer{
+
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #33d3d0;
+    margin-top: 40rem;
+    width: 70%;
+    margin: auto;
+  }
+
+  footer h4{
+    text-decoration: underline;
+  }
+
+
+  /* for blog.html */
+
+  h1, h2{
+    margin: 3rem;
+  }
