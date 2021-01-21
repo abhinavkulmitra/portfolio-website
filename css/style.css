@@ -141,3 +141,12 @@ body {
   h1, h2{
     margin: 3rem;
   }
+
+  /* demo blog */
+  section {
+    border: rgb(72, 232, 243) solid 1px;
+    padding: 30px;
+    padding-top: 0px;
+    background: rgb(64, 192, 201);
+    border-radius: 10px;
+  }
